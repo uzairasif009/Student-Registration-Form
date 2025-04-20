@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-left">
+        <img src="https://cdn-icons-png.flaticon.com/512/906/906175.png" alt="Logo" class="logo">
+        <p>
+          Satti Institute of Technology<br>
+          Box 777,<br>
+          Main Street,<br>
+          Kahuta<br>
+          Tel: 091 1233457<br>
+          E-mail: uzairsatti.us@gmail.com
+        </p>
+      </div>
+      <div class="header-right">
+        <p class="ref-number">Ref No: 12009</p>
+        <div class="avatar-box">
+          <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Student Avatar" class="avatar">
+        </div>
+      </div>
+    </header>
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+      <!-- Student Information -->
+      <section>
+        <h3 class="section-title">Student Information</h3>
+        <label>Full Name: <input type="text"></label>
+        <label>Date of Birth: <input type="date"></label>
+        <label>Gender:
+          <input type="radio" name="gender"> Male
+          <input type="radio" name="gender"> Female
+        </label>
+        <label>Nationality: <input type="text"></label>
+        <label>Contact Information: <input type="text"></label>
+      </section>
+
+      <!-- Parent/Guardian Information -->
+      <section>
+        <h3 class="section-title">Parent/Guardian Information</h3>
+        <label>Parent/Guardian Name(s): <input type="text"></label>
+        <label>Relationship to Student: <input type="text"></label>
+        <label>Contact Information (Phone Number, Email): <input type="text"></label>
+        <label>Emergency Contact Information: <input type="text"></label>
+      </section>
+
+      <!-- Education Information -->
+      <section>
+        <h3 class="section-title">Education Information</h3>
+        <label>School/Institution Name: <input type="text"></label>
+        <label>Graduation Date (if applicable): <input type="date"></label>
+        <label>How did you hear about us? <input type="text"></label>
+        <label>Why are you interested in our program? <input type="text"></label>
+      </section>
+
+      <!-- Agreement -->
+      <section class="agreement">
+        <label>Are you Agree to the terms and conditions of enrollment?
+          <input type="checkbox"> 👍
+          <input type="checkbox"> 👎
+        </label>
+        <label>Signature of the student and, if the student is a minor, a parent or guardian:</label>
+        <input type="text">
+      </section>
+    </form>
+  </div>
+</body>
+</html>
